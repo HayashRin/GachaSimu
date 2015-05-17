@@ -21,6 +21,7 @@
 		B18990FB1B0793B500F9752A /* RAMTransitionItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18990F41B0793B500F9752A /* RAMTransitionItemAnimation.swift */; };
 		B18990FC1B0793B500F9752A /* RAMAnimatedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18990F51B0793B500F9752A /* RAMAnimatedTabBarController.swift */; };
 		B18990FD1B0793B500F9752A /* RAMItemAnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18990F61B0793B500F9752A /* RAMItemAnimationProtocol.swift */; };
+		B1CE79A21B081A1800E825C3 /* GachaLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CE79A11B081A1800E825C3 /* GachaLogic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		B18990F41B0793B500F9752A /* RAMTransitionItemAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMTransitionItemAnimation.swift; sourceTree = "<group>"; };
 		B18990F51B0793B500F9752A /* RAMAnimatedTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMAnimatedTabBarController.swift; sourceTree = "<group>"; };
 		B18990F61B0793B500F9752A /* RAMItemAnimationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMItemAnimationProtocol.swift; sourceTree = "<group>"; };
+		B1CE79A11B081A1800E825C3 /* GachaLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GachaLogic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				B18990C71B07936800F9752A /* AppDelegate.swift */,
 				B18990C91B07936800F9752A /* FirstViewController.swift */,
 				B18990CB1B07936800F9752A /* SecondViewController.swift */,
+				B1CE79A11B081A1800E825C3 /* GachaLogic.swift */,
 				B18990CD1B07936800F9752A /* Main.storyboard */,
 				B18990D01B07936800F9752A /* Images.xcassets */,
 				B18990D21B07936800F9752A /* LaunchScreen.xib */,
@@ -294,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B18990CC1B07936800F9752A /* SecondViewController.swift in Sources */,
+				B1CE79A21B081A1800E825C3 /* GachaLogic.swift in Sources */,
 				B18990FC1B0793B500F9752A /* RAMAnimatedTabBarController.swift in Sources */,
 				B18990C81B07936800F9752A /* AppDelegate.swift in Sources */,
 				B18990FB1B0793B500F9752A /* RAMTransitionItemAnimation.swift in Sources */,
@@ -498,6 +502,7 @@
 				B18990E51B07936800F9752A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B18990E61B07936800F9752A /* Build configuration list for PBXNativeTarget "GachaSimuTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +511,7 @@
 				B18990E81B07936800F9752A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

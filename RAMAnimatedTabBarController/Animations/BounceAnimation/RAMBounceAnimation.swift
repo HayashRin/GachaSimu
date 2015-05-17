@@ -59,5 +59,5 @@ class RAMBounceAnimation : RAMItemAnimation {
         icon.image = renderImage
         icon.tintColor = iconSelectedColor
     }
-
 }
+
